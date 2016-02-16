@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A4B4DAEB1C477DB400521DF0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B4DAEA1C477DB400521DF0 /* main.cpp */; };
+		A4B4DAF31C4D996B00521DF0 /* second.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B4DAF11C4D996B00521DF0 /* second.cpp */; };
+		A4B4DAF61C4DA96000521DF0 /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B4DAF41C4DA96000521DF0 /* factory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		A4B4DAE71C477DB400521DF0 /* Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B4DAEA1C477DB400521DF0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4B4DAF11C4D996B00521DF0 /* second.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = second.cpp; sourceTree = "<group>"; };
+		A4B4DAF21C4D996B00521DF0 /* second.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = second.h; sourceTree = "<group>"; };
+		A4B4DAF41C4DA96000521DF0 /* factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = factory.cpp; sourceTree = "<group>"; };
+		A4B4DAF51C4DA96000521DF0 /* factory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = factory.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				A4B4DAEA1C477DB400521DF0 /* main.cpp */,
+				A4B4DAF11C4D996B00521DF0 /* second.cpp */,
+				A4B4DAF21C4D996B00521DF0 /* second.h */,
+				A4B4DAF41C4DA96000521DF0 /* factory.cpp */,
+				A4B4DAF51C4DA96000521DF0 /* factory.hpp */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B4DAEB1C477DB400521DF0 /* main.cpp in Sources */,
+				A4B4DAF61C4DA96000521DF0 /* factory.cpp in Sources */,
+				A4B4DAF31C4D996B00521DF0 /* second.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
